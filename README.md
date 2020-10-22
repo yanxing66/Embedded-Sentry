@@ -9,5 +9,5 @@ the resource.
 ● A successful unlock must be indicated by a visual indication, such as an LED or
 similar indicator.
 #ide:Arduino
-#devices:stm32,accelermeter axl345
+#devices:samd21 pro,accelermeter adxl345
 #language:c
