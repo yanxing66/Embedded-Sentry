@@ -1,13 +1,10 @@
-# Real_Time_Embeded _System
-
-project1: embebed_sentry
+#Real_Time_Embeded _System
+---------------embebed_sentry---------
 Use the data collected from a single accelerometer and/or magnetometer to record a hand movement sequence as a means to generally “unlock” a resource.
-● Recorded sequence must be saved on the microcontroller, using a “Record Key”
-feature.
-● User then must replicate the key sequence within sufficient tolerances to unlock
-the resource.
-● A successful unlock must be indicated by a visual indication, such as an LED or
-similar indicator.
+
+•	Designed an intelligent lock, which uses combination of user’s gestures as the password 
+•	Established connection between accelerometer and microcontroller. Wrote a program in Arduino to process dimensional data received from accelerometer to identify user gestures
+
 #ide:Arduino
 #devices:samd21 pro,accelermeter adxl345
 #language:c
